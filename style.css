@@ -23,7 +23,8 @@ body {
   align-items: center;
   padding: 25px 15px;
   margin: 0 auto;
-  margin-top: 50vh;
+  margin-top: 100px;
+
 }
 
 #board .card {
