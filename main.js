@@ -45,6 +45,9 @@ const showImg = (imgEl, cardId) => {
     state.showing = [];
     if (state.matches.length === images.length / 2) {
       alert('Congratulations, you did it!');
+      state.showing = []
+      state.matches = []
+      state.prevClicked = null
       initBoard();
     }
     return;
