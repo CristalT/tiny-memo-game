@@ -15,7 +15,9 @@ I also used Vite as the builder. If you don't know what Vite is about, I highly 
 ### Commands
 
 **Local Server**
+
 `npm run dev`
 
 **Build for Production**
+
 `npm run build`
