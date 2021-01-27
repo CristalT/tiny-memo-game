@@ -1,0 +1,56 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background-image: url('images/bg-stage.jpg');
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+#topbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 8px 16px;
+  z-index: 9;
+  text-align: center;
+}
+#board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 15px;
+  margin: 0 auto;
+  margin-top: 50vh;
+}
+
+#board .card {
+  width: 120px;
+  height: 120px;
+  margin: 8px;
+  padding: 5px;
+  background-color: rgb(26, 204, 130);
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(28, 26, 26, 0.8)
+}
+
+.btn {
+  padding: 8px 16px;
+  font-size: 12pt;
+  border: none;
+  background-color: rgb(255, 155, 62);
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1.4px;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 0 0 2px rgba(0,0,0,0.4)
+}
+
+.btn:hover {
+  background-color: rgb(255, 171, 93);
+
+}
